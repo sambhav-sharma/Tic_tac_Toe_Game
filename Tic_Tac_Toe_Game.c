@@ -247,6 +247,7 @@ int main()
                 system("cls");
                 display();
                 printf("\nCongratulation, %s You Won The Game.\n ", s1);
+                printf("\nSorry %s, Better Luck Next Time.\n", s2);
                 printf("\n");
                 getch();
             }
@@ -256,6 +257,7 @@ int main()
                 system("cls");
                 display();
                 printf("\nCongratulation, %s You Won The Game.\n", s2);
+                printf("\nSorry %s, Better Luck Next Time.\n", s1);
                 printf("\n");
                 getch();
             }
